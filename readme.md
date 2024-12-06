@@ -95,7 +95,7 @@ Working directory： $FileDir$
 
 效果如图所示，成功调用萤石摄像头，并对其云台进行控制。
 
-![image-20241206194541116](F:\work\Univesity\大四\大四上\课设\picture_01.png)
+![image-20241206194541116](img\1.png)
 
 # 许可
 
