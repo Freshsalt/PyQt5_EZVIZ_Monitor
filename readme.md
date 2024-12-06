@@ -83,9 +83,13 @@ Working directory： $FileDir$
 
 ## 2.获取萤石API接口与RTSP链接
 
-网页搜索**萤石开放平台**（https://open.ys7.com），登录后进入控制台，在设备管理一栏检查自己的摄像头是否已绑定个人账号。首先给摄像头上电并联网。进入**设备详情**，关闭**设备加密**，后在左侧栏选择**账号中心-应用中心**创建应用，获得应用密钥和Token等。注意，Token存在有效期，有效期过后，需要更新以获取新的Token，这个过程是免费的。
+网页搜索**萤石开放平台**（https://open.ys7.com）
 
-下载萤石工作室（https://service.ezviz.com/downloadInfoSite/document/69.html），下载后对设备进行高级配置。**我的设备-设置-账号内设备-高级设置**进入后选择**网络-常用**，右侧栏可以查看到局域网的IPv4地址和RTSP端口，将其放于代码中更改即可。
+登录后进入控制台，在设备管理一栏检查自己的摄像头是否已绑定个人账号。首先给摄像头上电并联网。进入**设备详情**，关闭**设备加密**，后在左侧栏选择**账号中心-应用中心**创建应用，获得应用密钥和Token等。注意，Token存在有效期，有效期过后，需要更新以获取新的Token，这个过程是免费的。
+
+下载萤石工作室（https://service.ezviz.com/downloadInfoSite/document/69.html）
+
+下载后对设备进行高级配置。**我的设备-设置-账号内设备-高级设置**进入后选择**网络-常用**，右侧栏可以查看到局域网的IPv4地址和RTSP端口，将其放于代码中更改即可。
 
 ## 3.编写主程序
 
@@ -95,7 +99,7 @@ Working directory： $FileDir$
 
 效果如图所示，成功调用萤石摄像头，并对其云台进行控制。
 
-![image-20241206194541116](img\1.png)
+![image](https://github.com/Freshsalt/PyQt5_EZVIZ_Monitor/blob/main/img/1.png)
 
 # 许可
 
